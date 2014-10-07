@@ -59,6 +59,7 @@ project</a> to the list.
 
 ## Google Maps Android API
 
+
 <table>
   <thead>
     <tr>
@@ -71,8 +72,10 @@ project</a> to the list.
       <td>A multipurpose library that adds support for marker clustering, heat maps, custom marker text, polyline encoding/decoding and spherical geometry.</td>
       <td>[Chris Broadfoot]</td>
     </tr>
-    </tbody>
+  </tbody>
 </table>
+
+
 
 [Brendan Kenny]: https://github.com/brendankenny
 [Chris Broadfoot]: https://github.com/broady
