@@ -1,5 +1,7 @@
 name: Google Maps
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
+markdown: kramdown
+kramdown:
+  input: GFM
+  html_to_native: true
+  hard_wrap: false
 baseurl: /
