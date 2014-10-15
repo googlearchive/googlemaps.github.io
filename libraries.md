@@ -1,5 +1,4 @@
 ---
----
 
 # Google Maps API Libraries
 
