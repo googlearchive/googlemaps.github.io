@@ -150,21 +150,6 @@ body {
     color: #404040;
 }
 
-body::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    z-index: 9;
-    display: none;
-    background-image: -webkit-linear-gradient(top,rgba(0,0,0,.15)95%,rgba(0,0,0,.15)100%);
-    background-image: linear-gradient(to bottom,rgba(0,0,0,.15)95%,rgba(0,0,0,.15)100%);
-    background-size: 100% 26px;
-}
-
 pre {
     background: #f0f0f0;
     padding: 13px;
@@ -189,85 +174,6 @@ pre {
 
 @media only screen and (min-width:800px) {
     .main-container {
-        padding-left: 4.4%;
-        padding-right: 4.4%;
-        max-width: 864px;
-    }
-}
-
-.container {
-    box-sizing: content-box;
-    position: relative;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-@media only screen and (min-width:620px) {
-    .container {
-        padding-left: 4.8%;
-        padding-right: 4.8%;
-        max-width: 688px;
-    }
-}
-
-@media only screen and (min-width:800px) {
-    .container {
-        padding-left: 4.4%;
-        padding-right: 4.4%;
-        max-width: 864px;
-    }
-}
-
-@media only screen and (min-width:620px) {
-    .container-medium {
-        box-sizing: content-box;
-        position: relative;
-        padding-left: 5%;
-        padding-right: 5%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media only screen and (min-width:620px) and (min-width:620px) {
-    .container-medium {
-        padding-left: 4.8%;
-        padding-right: 4.8%;
-        max-width: 688px;
-    }
-}
-
-@media only screen and (min-width:620px) and (min-width:800px) {
-    .container-medium {
-        padding-left: 4.4%;
-        padding-right: 4.4%;
-        max-width: 864px;
-    }
-}
-
-@media only screen and (max-width:619px) {
-    .container-small {
-        box-sizing: content-box;
-        position: relative;
-        padding-left: 5%;
-        padding-right: 5%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media only screen and (max-width:619px) and (min-width:620px) {
-    .container-small {
-        padding-left: 4.8%;
-        padding-right: 4.8%;
-        max-width: 688px;
-    }
-}
-
-@media only screen and (max-width:619px) and (min-width:800px) {
-    .container-small {
         padding-left: 4.4%;
         padding-right: 4.4%;
         max-width: 864px;
