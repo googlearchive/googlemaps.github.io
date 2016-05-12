@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.google.com/earth/kml/2">
+<Document>
+    <name>kml_sample2.kml</name>
+
+    <Style id="red">
+      <IconStyle>
+        <Icon>
+          <href>http://www.google.com/intl/en_us/mapfiles/ms/icons/red-dot.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+    <Style id="green">
+      <IconStyle>
+        <Icon>
+          <href>http://www.google.com/intl/en_us/mapfiles/ms/icons/green-dot.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+    <Style id="blue">
+      <IconStyle>
+        <Icon>
+          <href>http://www.google.com/intl/en_us/mapfiles/ms/icons/blue-dot.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+  <Placemark>
+    <name>Google Inc.</name>
+    <description><![CDATA[
+      Google Inc.<br />
+      1600 Amphitheatre Parkway<br />
+      Mountain View, CA 94043<br />
+      Phone: +1 650-253-0000<br />
+      Fax: +1 650-253-0001<br />
+      <p>Home page: <a href="http://www.google.com">www.google.com</a></p>
+    ]]>
+    </description>
+    <styleUrl>#red</styleUrl> 
+    <Point>
+      <coordinates>-122.0841430, 37.4219720, 0</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Yahoo! Inc.</name>
+    <description><![CDATA[
+      Yahoo! Inc.<br />
+      701 First Avenue<br />
+      Sunnyvale, CA 94089<br />
+      Tel: (408) 349-3300<br />
+      Fax: (408) 349-3301<br />
+      <p>Home page: <a href="http://yahoo.com">http://yahoo.com</a></p>
+      ]]>
+    </description>
+    <styleUrl>#green</styleUrl> 
+    <Point>
+      <coordinates>-122.0250403,37.4163228</coordinates>
+    </Point>
+  </Placemark>
+
+</Document>
+</kml>
