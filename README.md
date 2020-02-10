@@ -1,4 +1,7 @@
 # googlemaps.github.io
 
-A page that lists all of the utility libraries for Google Maps APIs:
-[Click me!](http://googlemaps.github.io/libraries) ![Analytics](https://maps-ga-beacon.appspot.com/UA-12846745-20/googlemaps.github.io/readme?pixel)
+**Attention**: This repository and associated Github page is no longer being maintained.
+
+To see the most up-to-date supported GMP libraries, please see: https://developers.google.com/maps/documentation
+
+Thanks!
